@@ -8,7 +8,7 @@ This is my project inspired by, and building on top of, what she did. Some of th
 ## Get things
 
 I already had a Logitech C170 USB webcam lying around. I ordered the rest of my hardware from [Adafruit](https://www.adafruit.com/) but there are plenty of places to buy the components.
-```plain
+
 item | cost | link
 --- | --- | ---
 Raspberry Pi 3 - Model B^ | $39.95 | [link](https://www.adafruit.com/product/3055)
@@ -16,7 +16,7 @@ Adafruit Raspberry Pi Case - Smoke Base w/ Clear Top^^ | $7.95 | [link](https://
 USB WiFi (802.11b/g/n) Module with Antenna | $19.95 | [link](https://www.adafruit.com/product/1030)
 5V 1A (1000mA) USB port power supply^^^ | $5.95 | [link](https://www.adafruit.com/product/501)
 USB cable - A/MicroB - 3ft | $2.95 | [link](https://www.adafruit.com/product/592)
-```
+
 ^ You could build your own case, or go without. I'm pleased with the one I purchased.
 ^^ There are cheaper USB wifi modules but I went for one with a better antenna because I wasn't sure how much building was going to be between the internet router and my Pi.
 ^^^ Adafruit also sells a [power supply](https://www.adafruit.com/product/1995) that has an integrated cable but it was out of stock when I ordered.
