@@ -18,7 +18,9 @@ USB WiFi (802.11b/g/n) Module with Antenna | $19.95 | [link](https://www.adafrui
 USB cable - A/MicroB - 3ft | $2.95 | [link](https://www.adafruit.com/product/592)
 
 ^ You could build your own case, or go without. I'm pleased with the one I purchased.
+
 ^^ There are cheaper USB wifi modules but I went for one with a better antenna because I wasn't sure how much building was going to be between the internet router and my Pi.
+
 ^^^ Adafruit also sells a [power supply](https://www.adafruit.com/product/1995) that has an integrated cable but it was out of stock when I ordered.
 
 ## Setup the Pi
