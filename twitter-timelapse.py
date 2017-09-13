@@ -61,7 +61,7 @@ if local_now > end_twilight:
     if os.path.exists(today_dir):
         # make a GIF of today's images and tweet
         # https://www.imagemagick.org/script/command-line-options.php
-        os.system ("convert -resize 30% -delay 10 -loop 0 " + today_dir + "/*.jpg " + today_dir + ".gif")
+        os.system ("convert -resize 25% -delay 10 -loop 0 " + today_dir + "/*.jpg " + today_dir + ".gif")
         api = Twython(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_KEY,ACCESS_SECRET)
         photo = open(today_dir + '.gif','rb')
         image_ids = api.upload_media(media=photo)
