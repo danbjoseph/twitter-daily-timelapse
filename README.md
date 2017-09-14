@@ -4,9 +4,9 @@
 
 [Nicole He](https://twitter.com/nicolehe) made a pretty cool thing where she has a Raspberry Pi take a photo of a house plant with a webcam once a day and tweet it. The Twitter account is [@grow_slow](http://twitter.com/grow_slow) and she explains a bit about the project [here](http://nicole.pizza/grow_slow). Additional awesomeness is that she documented everything and put the details up on [GitHub](https://github.com/nicolehe/grow_slow).
 
-This is my project inspired by, and building on top of, what she did.
+This is my project inspired by, and building on top of, what she did. I have the webcam take pictures throughout a day and then tweet a timelapse GIF of the day via [@pi_watch](https://twitter.com/pi_watch). 
 
-_**I'm still working on making my instructions as comprehensive and beginner-friendly as Nicole. And I also have some TODOs before I would consider my script complete.**_
+_**I'm still working on making my instructions as comprehensive and beginner-friendly as Nicole. And I also have some TODOs before I would consider my script "complete".**_
 
 ## Get things
 
