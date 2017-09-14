@@ -66,11 +66,11 @@ if local_now > end_twilight:
         photo = open(today_dir + '.gif','rb')
         image_ids = api.upload_media(media=photo)
         api.update_status(status='', media_ids=image_ids['media_id'])
-        # delete the gif
+        # TODO: delete the gif
         # ...
         # zip the folder of images
         shutil.make_archive(today_dir, 'zip', today_dir)
-        # save zip to S3
+        # TODO: save zip to S3 and then delete the zip
         # ...
         # delete the folder
         shutil.rmtree(today_dir)
