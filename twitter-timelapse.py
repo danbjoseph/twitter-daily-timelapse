@@ -32,6 +32,7 @@ TZ = 'US/Eastern'
 local_tz = pytz.timezone(TZ)
 utc_now = datetime.utcfromtimestamp(time.time())
 local_now = utc_now.replace(tzinfo=pytz.utc).astimezone(local_tz)
+local_noon = local_now.replace(hour=12, minute=00)
 today_dir = datetime.strftime(local_now, '%Y-%m-%d')
 
 # make a pyephem observer
@@ -40,7 +41,7 @@ my_location.lat, my_location.lon = str(LAT), str(LNG)
 # pyephem takes and returns UTC times but we dont care about the time
 # we want the date in the current timezone so we will pass the
 # local time and let pyephem ignore the timezone
-my_location.date = local_now
+my_location.date = local_noon
 # my_location.elev = 20 # elevation of in meters
 # to get U.S. Naval Astronomical Almanac values, use these settings
 my_location.pressure = 0
