@@ -4,7 +4,7 @@
 
 [Nicole He](https://twitter.com/nicolehe) made a pretty cool thing where she has a Raspberry Pi take a photo of a house plant with a webcam once a day and tweet it. The Twitter account is [@grow_slow](http://twitter.com/grow_slow) and she explains a bit about the project [here](http://nicole.pizza/grow_slow). Additional awesomeness is that she documented everything and put the details up on [GitHub](https://github.com/nicolehe/grow_slow).
 
-This is my project inspired by, and building on top of, what she did. I have the webcam take pictures throughout a day and then tweet a timelapse GIF of the day via [@pi_watch](https://twitter.com/pi_watch). 
+This is my project inspired by, and building on top of, what she did. I have the webcam take pictures throughout a day and then tweet a timelapse GIF of the day via [@pi_watch](https://twitter.com/pi_watch).
 
 _**I'm still working on making my instructions as comprehensive and beginner-friendly as Nicole. And I also have some TODOs before I would consider my script "complete".**_
 
@@ -20,7 +20,7 @@ USB WiFi (802.11b/g/n) module with antenna^^ | $19.95 | [link](https://www.adafr
 5V 1A (1000mA) USB port power supply^^^ | $5.95 | [link](https://www.adafruit.com/product/501)
 USB cable - A/MicroB - 3ft | $2.95 | [link](https://www.adafruit.com/product/592)
 USB webcam^^^^ | n/a | n/a
-micro SD card, GB^^^^^ | n/a | n/a
+micro SD card, 16GB^^^^^ | n/a | n/a
 
 ^ You could also build your own case, or go without. I'm pleased with the one I purchased.
 
